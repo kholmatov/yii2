@@ -16,23 +16,13 @@ $config = [
 
         'GoogleCloudPrint' => [
             'class' => 'inquid\googlecloudprint\GoogleCloudPrint',
-            'refresh_token' => '1/Cb1CCMesZ4wSlTkuOhVr72BTAdEUX1guS9RVwyV-4kk', //'1/j7h-P0O7XSO883Dh-m5QaQfuKByIpLrKcW2Kk6BylOg',
-            'client_id' => '673058166961-oac1a6oism9asbht7rhls3m4g4c7sppl.apps.googleusercontent.com',//'404184363170-48rlmbj7g36t7701o4pm8sfp7kqf3hfr.apps.googleusercontent.com',
-            'client_secret' => 'lMmcyx8a3a8i3KLDAo7vKmbd',//'KDCmI9iKEzhBI3T90ie9Ashq',
+            'refresh_token' => '',
+            'client_id' => '...',
+            'client_secret' => '...',
             'grant_type' => 'refresh_token',
             'redirect_uri' =>'http://e51cca8e.ngrok.io/googlecloudauth', //http://e51cca8e.ngrok.io/?r=googlecloudauth
             'default_printer_id' => '6c6254c4-60c8-a12b-96cb-2176012db991'
         ],
-
-//        'GoogleCloudPrint' => [
-//            'class' => 'inquid\googlecloudprint\GoogleCloudPrint',
-//            'refresh_token' => '4/TADGciR2sd1Xev9c9jVqTY_63B_hbLE3PF6dSKC3trdHkp9latOQqjGPUvADSKlDhMh5t7uhNJdokJzVN1VDbXY#',
-//            'client_id' => '307931809062-tprua50s3kbnhlc4jme1pfn2s1rojhha.apps.googleusercontent.com',
-//            'client_secret' => '-eyXv7COq4j9ctDyGDmTwlbH',
-//            'redirect_uri' =>'http://127.0.0.1:7979/r=googlecloudauth', // http://yourdomain.com/?r=googlecloudauth
-//            'grant_type' => 'refresh_token',
-//            'default_printer_id' => '__google__docs'
-//        ],
 
 
         'request' => [
